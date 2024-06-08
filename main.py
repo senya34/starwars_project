@@ -8,5 +8,6 @@ def find(url):
     response = requests.get(url=url)
     return response
 
+
 result = find(url)
 print(result.json())
